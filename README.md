@@ -1,2 +1,2 @@
-# blume
-Blume is a headless e-commerce project
+# Blume
+Blume - Rust + v8 learning project 

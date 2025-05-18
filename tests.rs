@@ -16,8 +16,8 @@ use super::create_http_client;
 use super::CreateHttpClientOptions;
 use crate::dns;
 
-static EXAMPLE_CRT: &[u8] = include_bytes!("../testdata/example1_cert.der");
-static EXAMPLE_KEY: &[u8] = include_bytes!("../testdata/example1_prikey.der");
+static EXAMPLE_CRT: &[u8] = include_bytes!("testdata/example1_cert.der");
+static EXAMPLE_KEY: &[u8] = include_bytes!("testdata/example1_prikey.der");
 
 #[test]
 fn test_userspace_resolver() {

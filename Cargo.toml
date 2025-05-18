@@ -1,7 +1,10 @@
 [package]
 name = "munk_fetch"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
+
+[lib]
+path = "lib.rs"
 
 [dependencies]
 base64 = "0.22.1"

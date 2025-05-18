@@ -144,14 +144,14 @@ deno_core::extension!(deno_fetch,
     op_fetch_promise_is_settled,
   ],
   esm = [
-    "/src/20_headers.js",
-    "/src/21_formdata.js",
-    "/src/22_body.js",
-    "/src/22_http_client.js",
-    "/src/23_request.js",
-    "/src/23_response.js",
-    "/src/26_fetch.js",
-    "/src/27_eventsource.js"
+    "20_headers.js",
+    "21_formdata.js",
+    "22_body.js",
+    "22_http_client.js",
+    "23_request.js",
+    "23_response.js",
+    "26_fetch.js",
+    "27_eventsource.js"
   ],
   options = {
     options: Options,
